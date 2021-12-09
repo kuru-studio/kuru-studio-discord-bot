@@ -128,7 +128,7 @@ Congratulations! You've successfully added your bot to your Discord server. It s
 To start working on the bot you will need to clone this repository to your system. Once you've done that `cd` to the repository then copy `sample.env` to `.env`.
 
 ```
-cp sample.env .env
+cp .sample.env .env
 ```
 
 Open `.env` and replace `xxxxx` with your bot's token. Your `.env` should look similar to this afterwards:
