@@ -8,7 +8,7 @@ const adminID = '230249439481167872';
 
 client.commands = new discord.Collection();
 
-// Read commandFiles
+// ANCHOR: Read commandFiles
 fs.readdir('./src/commands/', (err, commands) => {
   if (err) throw err;
   
@@ -20,17 +20,17 @@ fs.readdir('./src/commands/', (err, commands) => {
   });
 });
 
-// Bot Mount Event Trigger
+// ANCHOR: Bot Mount Event Trigger
 client.on('ready', () => {
   console.log('Bot is ready.');
 });
 
-// Bot Join Event Trigger
+// ANCHOR: Bot Join Event Trigger
 client.on('guildMemberAdd', member => {
-  member.send('Welcome to the server!\nRead our rules at https://web.kuru-anime.com/discord/rules');
+  member.send('Welcome to the server!');
 });
 
-// Bot Message Event Trigger
+// ANCHOR: Bot Message Event Trigger
 client.on('message', message => {
   if (!message.content.startsWith(prefix) || message.author.bot) return;
 
@@ -48,5 +48,5 @@ client.on('message', message => {
   }
 });
 
-// Discord Login
+// ANCHOR: Discord Login
 client.login(process.env.BOT_TOKEN);
