@@ -10,7 +10,6 @@ Kuru Anime's Discord Bot is your one-stop bot for Anime servers! It keeps on gro
 **Links**
  - [Kuru Studio Social](https://social.kuru.studio/)
  - [Discord Server](http://discord.kuru.studio/)
- - [Documentation](https://contribute.kuru.studio/)
 
 ### Running Kuru Anime's Discord Bot yourself
 
