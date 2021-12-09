@@ -3,7 +3,7 @@ Kuru Anime's Discord Bot
 
 ### General purpose Discord Bot for Anime Servers
 
-Hosted on [Glitch](https://glitch.com/). To invite the bot to your server you can go to this [link](https://discord.com/api/oauth2/authorize?client_id=918438656971251732&permissions=545460846583&scope=bot%20applications.commands).
+Hosted on [Glitch](https://heroku.com/). To invite the bot to your server you can go to this [link](https://discord.com/api/oauth2/authorize?client_id=918438656971251732&permissions=545460846583&scope=bot%20applications.commands).
 
 Kuru Anime's Discord Bot is your one-stop bot for Anime servers! It keeps on growing day by day and if there's a feature that you want to be included we'll be glad to help you add it! Our Discord Bot also follows one of Kuru Anime's main core value which is staying open-source!
 
