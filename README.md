@@ -8,9 +8,9 @@ Hosted on [Glitch](https://glitch.com/). To invite the bot to your server you ca
 Kuru Anime's Discord Bot is your one-stop bot for Anime servers! It keeps on growing day by day and if there's a feature that you want to be included we'll be glad to help you add it! Our Discord Bot also follows one of Kuru Anime's main core value which is staying open-source!
 
 **Links**
- - [Kuru Anime](https://web.kuru-anime.com/)
- - [Discord Server](http://discord.kuru-anime.com/)
- - [Documentation](https://docs.kuru-anime.com/)
+ - [Kuru Studio Social](https://social.kuru.studio/)
+ - [Discord Server](http://discord.kuru.studio/)
+ - [Documentation](https://contribute.kuru.studio/)
 
 ### Running Kuru Anime's Discord Bot yourself
 
@@ -63,11 +63,11 @@ It looks hard but it's actually pretty easy! So don't worry.
 
 You should see a page like this:
 
-![c422fe87](https://discordjs.guide/assets/img/created-bot.c422fe87.png)
+![c422fe87](https://discordjs.guide/assets/create-app.ed82aede.png)
 
 Fill in the necessary details and save it. Once you're done you can move on to the next step by clicking on the "Bot" tab on the left pane.
 
-![dff0f01e](https://discordjs.guide/assets/img/create-bot.dff0f01e.png)
+![dff0f01e](https://discordjs.guide/assets/create-bot.44c7ea49.png)
 
 Click the "Add Bot" button on the right and confirm the pop-up window by clicking "Yes, do it!". You made it! You've created your own Discord Bot! We're not done yet, though.
 
@@ -77,7 +77,7 @@ This is one of the important step on this instruction so please pay close attent
 
 After creating the bot you'll see a page like this:
 
-![c422fe87](https://discordjs.guide/assets/img/created-bot.c422fe87.png)
+![c422fe87](https://discordjs.guide/assets/created-bot.b809fb6e.png)
 
 In this panel you'll be able to do stuff like, add avatar, set its username or make it public/private. This is also the panel where you can get your bot's token. When you're asked for the bot's token, this is where you'll find it. Just hit copy and you'll have it in your clipboard.
 
@@ -113,11 +113,11 @@ As mentioned above, you'll need to replace the `client_id` parameter with your c
 
 Insert your app's ID into the link template and then access it in your browser. You should see something like this (with your bot's username and avatar):
 
-![3d267a22](https://discordjs.guide/assets/img/A8l70bj.3d267a22.png)
+![3d267a22](https://discordjs.guide/assets/bot-auth-page.e624796f.png)
 
 Choose the server you want to add it to and click "Authorize". Do note that you'll need the "Manage Server" permission on a server in order to be able to add your bot there. This should then present you a nice confirmation message:
 
-![c05e3b60](https://discordjs.guide/assets/img/BAUsjyg.c05e3b60.png)
+![c05e3b60](https://discordjs.guide/assets/bot-authorized.a4595dbe.png)
 
 Congratulations! You've successfully added your bot to your Discord server. It should show up in your server's member list somewhat like this:
 
@@ -153,4 +153,4 @@ We can now start working on the bot! Just run the following code below to start 
 yarn watch
 ```
 
-That's it! Head over to the [issue board](https://github.com/kuru-project/discord-bot/issues) for issues that you can work on. Enjoy!
+That's it! Head over to the [issue board](https://github.com/kuru-studio/kuru-studio-discord-bot/issues) for issues that you can work on. Enjoy!
