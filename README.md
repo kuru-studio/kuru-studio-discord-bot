@@ -125,7 +125,7 @@ Congratulations! You've successfully added your bot to your Discord server. It s
 
 ### Setting up your local environment
 
-To start working on the bot you will need to clone this repository to your system. Once you've done that `cd` to the repository then copy `sample.env` to `.env`.
+To start working on the bot you will need to clone this repository to your system. Once you've done that `cd` to the repository then copy `.sample.env` to `.env`.
 
 ```
 cp .sample.env .env
