@@ -9,7 +9,6 @@ const adminID = '230249439481167872';
 client.commands = new discord.Collection();
 
 // Read commandFiles
-
 fs.readdir('./src/commands/', (err, commands) => {
   if (err) throw err;
   
