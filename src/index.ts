@@ -3,7 +3,7 @@ const client = new discord.Client();
 
 const fs = require('fs');
 
-const prefix = ';';
+const prefix = '!';
 const adminID = '230249439481167872';
 
 client.commands = new discord.Collection();
